@@ -12,6 +12,7 @@ venv.bak/
 
 # Jupyter Notebook
 .ipynb_checkpoints
+notebooks/*_dev.ipynb
 
 # Model files (these can be large)
 models/checkpoints/*.pt
