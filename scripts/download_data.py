@@ -14,5 +14,5 @@ def download_shakespeare():
         f.write(response.text)
 
     print(f"Downloaded {len(response.text)} characters to data/raw/shakespeare.txt")
-if __name__ == "main":
+if __name__ == "__main__":
     download_shakespeare()
